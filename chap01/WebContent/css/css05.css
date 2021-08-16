@@ -1,0 +1,64 @@
+ul {
+    border: 5px solid navy;
+    list-style-type: none;
+    padding-left: 0px;
+}
+li {
+    border: 10px solid lightcoral;
+    padding: 3px;
+    margin: 3px;
+    
+    /*  
+        border-style: 테두리 스타일 설정 
+        border-color: 테두리 색 설정 
+        border-width: 테두리 굵기 설정
+        border-radius: 테두리 모서리를 둥글게 설정
+    */
+    border-bottom-right-radius: 10px;
+}
+li:nth-child(2) {
+    border-style: dashed;
+}
+li:nth-child(3) {
+    border-style: dotted;
+}
+li:nth-child(4) {
+    border-style: double;
+}
+li:nth-child(5) {
+    border-style: groove;
+}
+li:nth-child(6) {
+    border-style: ridge;
+}
+li:nth-child(7) {
+    border-style: inset;
+}
+li:nth-child(8) {
+    border-style: outset;
+}
+li:nth-child(9) {
+    border-style: none;
+}
+li:nth-child(10) {
+    border-style: hidden;
+}
+li:nth-child(11) {
+    /* 4 value: 위 오른쪽 아래 왼쪽 (시계방향) */
+    border-style: solid dashed dotted double;
+    border-width: 10px 20px 10px 40px;
+    border-color: red blue goldenrod yellowgreen;
+    border-radius: 10px 0 5px 10px;
+}
+li:nth-child(12) {
+    /* 3 value: 위 좌우 아래 */
+    border-style: solid dashed dotted;
+    border-width: 5px 3px 20px;
+    border-color: red blue orange;
+}
+li:nth-child(13) {
+    /* 2 value: 상하 좌우 */
+    border-style: solid;
+    border-width: 0 0 0 15px;
+    border-color: skyblue;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    
+<h3># 웹 페이지에 표 출력하기</h3>
+<p>
+    table : 표의 범위를 설정하는 태그 <br>
+    tr : table row. table태그 내부에 사용하면 해당 테이블에 한 행을 추가한다 <br>
+    th : table header. tr태그 내부에 사용하면 제목 칸을 하나 추가한다 <br>
+    td : table data. tr태그 내부에 사용하면 데이터 칸을 하나 추가한다 <br>
+</p>
+
+<table border="3">
+    <tr>
+        <th>이름</th>
+        <td>홍길동</td>
+        <td>Hong Gildong</td>
+    </tr>
+    <tr>
+        <th>가족 구성원</th>
+        <td colspan="2">4인</td>
+    </tr>
+    <tr>
+        <th>이메일</th>
+        <td colspan="2">abc@tester.com</td>
+    </tr>
+    <tr>
+        <th>주소</th>
+        <td colspan="2">~</td>
+    </tr>
+    <tr>
+        <th rowspan="2">전화번호</th>
+        <td colspan="2">h.p 1234-1234-1234</td>
+    </tr>
+    <tr>
+        <td colspan="2">home 02-1234-1234</td>
+    </tr>
+</table>
+
+<hr>
+
+<table border="1">
+    <tr>
+        <td width="50" height="80" colspan="2" rowspan="3">A</td>
+        <td width="50" rowspan="2">E</td>
+        <td width="90" colspan="3" rowspan="3">G</td>
+        <td width="70" colspan="2" rowspan="3">J</td>
+        <td width="500" colspan="3">N</td>
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="2">O</td>
+        <td width="50" rowspan="2"></td>
+    </tr>
+    <tr>
+        <td>F</td>
+    </tr>
+    <tr>
+        <td width="350" colspan="4" rowspan="3">B</td>
+        <td>H</td>
+        <td colspan="4"></td>
+        <td colspan="2" rowspan="5">P</td>
+    </tr>
+    <tr>
+        <td colspan="2">I</td>
+        <td colspan="3" rowspan="3">K</td>
+    </tr>
+    <tr>
+        <td colspan="2">&nbsp;</td>
+    </tr>
+    <tr>
+        <td height="50" rowspan="2">C</td>
+        <td colspan="5" rowspan="2">D</td>
+    </tr>
+    <tr>
+        <td>L</td>
+        <td colspan="2">M</td>
+    </tr>
+</table>   
+
+</body>
+</html>

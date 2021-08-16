@@ -1,0 +1,9 @@
+.red    { color: red; }
+.tomato { color: tomato; }
+.spring { color: springgreen; }
+.peru   { color: peru; }
+.dodger { color: dodgerblue; }
+
+.material-icons.small  { font-size: 8px; }
+.material-icons.middle { font-size: 15px; }  
+.material-icons.big    { font-size: 25px; }

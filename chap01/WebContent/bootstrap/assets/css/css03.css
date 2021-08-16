@@ -1,0 +1,5 @@
+[class^='col'] {
+    background-color: gainsboro;
+    padding: 10px 30px;
+    border: springgreen solid 3px
+}

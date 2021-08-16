@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer Registration</title>
+    <style>
+        table {
+            background-image: url('../assets/image/도우너.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    
+<form id="regist-form">
+    
+    <table width="600" style="margin: auto;">
+        <caption> <!-- 테이블 제목 태그 -->
+            <h1 style="font-weight: lighter; text-align: center;">River Cleanup Day</h1>    
+            <h1 style="text-align: center;">Volunteer Registration</h1>
+            <hr>    
+        </caption>
+        <tr>
+            <th style="text-align: left;"><i style="font-style: normal;">Full Name</i></th>
+            <td><input type="text"> <input type="text"><br>
+                First Name 
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;                
+                Last Name
+            </td>            
+        </tr>
+        <tr>
+            <td><b>Contact No.</b></td>
+            <td><input type="text" size="4"> - <input type="text"><br>
+                Area Code Phone Number</td>            
+        </tr>
+        <tr>
+            <td><b>E-mail</b></td>
+            <td>
+                <input type="email" placeholder="ex: myname@example.com" size="30"><br>
+                example@example.com
+            </td>
+        </tr>
+        <tr>
+            <td><b>What time can <br>you work?</b><br><br><br></td>
+            <td>
+                <input type="radio" name="time"> Any time <br>
+                <input type="radio" name="time"> 8am - Noon <br>
+                <input type="radio" name="time"> 1 - 5pm <br>
+                <input type="radio" name="time"> Other
+            </td>
+        </tr>
+        <tr>
+            <td><b>Interested in:</b><br><br><br><br><br><br></td>            
+            <td>
+                <input type="checkbox" name="intrest"> Cleaning
+                <br>
+                <input type="checkbox" name="intrest"> Transportation
+                <br>
+                <input type="checkbox" name="intrest"> Wherever Needed
+                <br>
+                <input type="checkbox" name="intrest"> Food Service
+                <br>
+                <input type="checkbox" name="intrest"> First Aid
+                <br>
+                <input type="checkbox" name="intrest"> Other
+                <br>
+            </td>
+        </tr>
+        <tr>
+            <td><b>Comments</b><br><br><br><br></td>
+            <td>
+                <textarea name="comment" cols="30" rows="10"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">
+                <input style="padding: 10px 40px;" type="submit" value="Submit Form">
+            </th>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>

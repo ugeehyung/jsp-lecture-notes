@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+/* border-box로 설정해 놓으면 100%를 맞추기 편하다 */
+img:first-of-type {
+    width: 30%;
+    border: 5px solid black;
+}
+img:last-of-type {
+    width: 70%;
+    border: 5px solid darkslategrey;
+}
+
+#div1 {
+    /* width/height property로 컨텐츠 박스의 사이즈를 결정하게 된다 */
+    box-sizing: content-box; 
+    width: 300px;
+    height: 200px;
+    border: solid 35px indigo;
+    padding: 50px;
+    margin: auto;
+}
+
+#div2 {
+    /* width/height property가 테두리를 포함한 크기를 설정하게 된다 */
+    box-sizing: border-box;
+    width: 300px;
+    height: 200px;
+    border: darkturquoise 50px solid;
+    padding: 50px;
+    margin: auto;
+}
+
+
+
+

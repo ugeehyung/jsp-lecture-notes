@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image</title>
+</head>
+<body>
+    
+<h3># 웹 페이지에 이미지 출력하기</h3>
+
+<!--
+    src 속성 : 이미지 경로
+    alt 속성 : 이미지가 나오지 않을 때 (인터넷이 느릴 때, 에러가 발생 했을 때)를 
+    대비한 이미지에 대한 설명
+
+    ※ 시각장애인이나 지적장애인들을 위해 웹 페이지를 읽어주는 프로그램들은
+       alt 속성에 정의된 텍스트를 읽도록 설계되어 있다.
+-->
+<h3># 원본 사이즈</h3>
+<img src="E:\penguin.jpg" alt="펭귄 두 마리가 있는 사진">
+
+<!-- 
+    width/height : 너비/높이 조절. 하나만 설정하면 다른 하나는 자동으로 조절된다. 
+-->
+<h3># 가로 300px</h3>
+<img src="E:\penguin.jpg" alt="펭귄 두 마리가 있는 사진" width="300">
+
+<h3># 세로 300px</h3>
+<img src="E:\penguin.jpg" alt="펭귄 두 마리가 있는 사진" height="300">
+
+<h3># 가로/세로 300px</h3>
+<img src="E:\penguin.jpg" alt="펭귄 두 마리가 있는 사진" width="300" height="300">
+
+<h3># 다른 웹 서버에 저장된 URL 사용하기</h3>
+
+<img src="https://imgnn.seoul.co.kr/img/upload/2020/08/18/SSI_20200818152435_V.jpg" 
+     alt="펭귄 세 마리가 있는 사진">
+
+<h3># 이미지는 자동으로 줄이 바뀌는 태그가 아니다 (글자 취급)</h3>
+
+<p>
+    자동으로 <a href="./05_링크.html">줄이 바뀌지 않는 태그</a>들은 
+    <img src="https://imgnn.seoul.co.kr/img/upload/2020/08/18/SSI_20200818152435_V.jpg" 
+     alt="펭귄 세 마리가 있는 사진" width="15"> 문단 내부에 삽입하여 사용할 수 있다.
+    이러한 요소들을 인라인 요소(inline element)라고 부른다. <br>
+    ※ 줄이 바뀌는 요소들은 블록 요소(block element)라고 부른다.
+</p>
+
+<img src="https://imgnn.seoul.co.kr/img/upload/2020/08/18/SSI_20200818152435_V.jpg" 
+     alt="펭귄 세 마리가 있는 사진" width="50"> 
+<a href="https://imgnn.seoul.co.kr/img/upload/2020/08/18/SSI_20200818152435_V.jpg"><img src="https://imgnn.seoul.co.kr/img/upload/2020/08/18/SSI_20200818152435_V.jpg" 
+     alt="펭귄 세 마리가 있는 사진" width="50"></a>
+</body>
+</html>

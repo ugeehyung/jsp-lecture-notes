@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Web_Flow</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+ <servlet>
+ 	<servlet-name>Main Page</servlet-name>
+ 	<jsp-file>/WEB-INF/jsp/MAIN Page.jsp</jsp-file>
+ </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Main Page</servlet-name>
+  	<url-pattern>/Main</url-pattern>
+  </servlet-mapping>
+  
+ <servlet>
+ 	<servlet-name>NEWS Page</servlet-name>
+ 	<jsp-file>/WEB-INF/jsp/NEWS.jsp</jsp-file>
+ </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>NEWS Page</servlet-name>
+  	<url-pattern>/Main/NEWS</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+ 	<servlet-name>IT Page</servlet-name>
+ 	<jsp-file>/WEB-INF/jsp/IT.jsp</jsp-file>
+ </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>IT Page</servlet-name>
+  	<url-pattern>/Main/NEWS/IT</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+ 	<servlet-name>Sports Page</servlet-name>
+ 	<jsp-file>/WEB-INF/jsp/sports.jsp</jsp-file>
+ </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Sports Page</servlet-name>
+  	<url-pattern>/Main/NEWS/Sports</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+ 	<servlet-name>Interview Page</servlet-name>
+ 	<jsp-file>/WEB-INF/jsp/interview.jsp</jsp-file>
+ </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Interview Page</servlet-name>
+  	<url-pattern>/Main/NEWS/Interview</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+</web-app>
